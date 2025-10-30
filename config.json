@@ -1,0 +1,32 @@
+{
+  "scan_settings": {
+    "timeout": 3,
+    "max_threads": 100,
+    "ports": [25565, 25566, 25567, 25568, 25569],
+    "scan_ranges": [
+      "8.8.8.0/24",
+      "1.1.1.0/24"
+    ]
+  },
+  "display_settings": {
+    "max_servers_displayed": 1000,
+    "refresh_interval": 30,
+    "show_offline_servers": false
+  },
+  "countries": {
+    "France": ["FR", "194.2.0.0/16", "193.252.0.0/16", "90.0.0.0/8"],
+    "United States": ["US", "8.8.8.0/16", "4.4.4.0/16", "192.168.1.0/24"],
+    "Germany": ["DE", "87.106.0.0/16", "85.214.0.0/16"],
+    "United Kingdom": ["GB", "81.2.69.0/24", "82.132.0.0/16"],
+    "Canada": ["CA", "99.224.0.0/16", "142.4.0.0/16"],
+    "Australia": ["AU", "1.128.0.0/11", "27.32.0.0/11"],
+    "Japan": ["JP", "133.205.0.0/16", "202.32.0.0/11"],
+    "Brazil": ["BR", "189.0.0.0/8", "177.0.0.0/8"],
+    "Netherlands": ["NL", "145.53.0.0/16", "194.109.0.0/16"],
+    "Sweden": ["SE", "130.237.0.0/16", "193.11.0.0/16"]
+  },
+  "geoip": {
+    "database_path": "data/GeoLite2-City.mmdb",
+    "auto_update": true
+  }
+}
